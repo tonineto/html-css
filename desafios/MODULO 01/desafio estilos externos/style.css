@@ -1,0 +1,35 @@
+@charset "UTF-8"   
+
+body{
+     background-color:rgb(41, 31, 17) ;
+     
+    
+}
+
+h1{
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+
+}
+
+h2{
+   background-color: burlywood;
+   font-family: monospace;
+   font-size: 30px;
+
+}
+
+p{
+   background-color: chartreuse;
+   font-size: large;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: justify;
+
+}
+
+mark{
+   color: darkmagenta;
+
+}
+
