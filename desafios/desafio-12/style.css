@@ -45,10 +45,17 @@ header > h1{
     font-variant: small-caps;
     font-family: var(--fonte02);
     font-size: 10vw;
+
 }
 
 header a{
     color: white;
     text-decoration: none;
     font-weight: bolder;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh
+    paddin
 }
