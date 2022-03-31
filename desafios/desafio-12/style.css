@@ -1,4 +1,4 @@
-@charset "utf-8"
+@charset "UTF-8"
 
 @charset "UTF-8"
 
@@ -7,70 +7,79 @@
 
 } /*primeiro comando não funciona*/
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
-
-
-
-:root{
-    --fonte01: Verdana, 'Geneva', Tahoma, sans-serif;
-    --fonte02: 'Passion One', 'cursive';
-    --fonte03:'Sriracha', 'cursive';
-}
 
 *{
     margin: 0px;
     padding: 0px;
-    font-size: 1em;
-}
+   
+}  /*Configurações Gerais*/
 
+html, body{
+   background-color: darkgray;
+   min-height: 100vh;
 
+} /*Configurações comuns html e body*/
 
-body{
-     min-height:100vh;
-     background-color: darkgray;
-     font-family: var(--fonte01);
-     display: block;
-}
 
 header{
     background-color: black;
     color: white;
     text-align: center;
+    
 }
 
 header > h1{
     padding-top: 50px;
-    font-variant: small-caps;
-    font-family: var(--fonte02);
-    font-size: 10vw;
-
+    font-variant: small-caps ; /*primeiras letras maiúsculas maiores*/
 }
 
-header a{
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
+header > p{
+    padding-bottom: 50px;
     
+}
+
+a{
+    color: white;
+    text-decoration: none; /*tira o sublinhado*/
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline; /*quando passa o mouse fica sublinhado o link*/
 }
 
 
 section{
-    display: block;
-    font-size: 3.5vw;
-    font-family: var(--fonte03);
-    padding-left: 30px;
     padding-top: 10vh;
-    padding-bottom: 10vh
-    
+    padding-bottom: 10vh; /*espaço entre as estrofes, ganhando rolagem para o efeito paralax*/
+    line-height: 2em; /*espaçamento dupla entre as letras*/
+    padding-left: 30px;
 }
 
-section > p{
-    padding-bottom: 2em;
-}
 
 section.normal{
     background-color: white;
     color: black;
+}
+
+section.imagem{
+    background-color: rgba(51, 51, 51);
+    color: white;
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.452);
+    width: 400px;
+}
+
+
+
+
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
