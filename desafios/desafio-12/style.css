@@ -50,7 +50,7 @@ a:hover{
 
 
 section{
-    padding-top: 10vh;
+    padding-top: 10vh;/*vh = altura da viewport*/
     padding-bottom: 10vh; /*espaço entre as estrofes, ganhando rolagem para o efeito paralax*/
     line-height: 2em; /*espaçamento dupla entre as letras*/
     padding-left: 30px;
