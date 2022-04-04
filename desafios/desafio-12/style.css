@@ -77,6 +77,11 @@ section{
     font-size: 3.5vw;
 }
 
+section > p{
+    padding-bottom: 2em
+    
+}
+
 
 section.normal{
     background-color: white;
@@ -86,13 +91,28 @@ section.normal{
 section.imagem{
     background-color: rgba(51, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.541); /* sombra interna -  6px e 13px espalhamentos / 0px ampliação*/
+    background-attachment: fixed; /* efeito paralax*/
 }
 
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.452);
+    background-color: rgba(0, 0, 0, 0.520);
     display: inline-block; /* Faz com que o conteúdo se adapte ao tamanho da tela*/
     padding: 5px; /* Dá um espaço entre o conteúdo e a section, pra não ficar colado*/
+    text-shadow: 2px 2px 0px black; /* Sombreamento nas letras espaçamentos e cores*/
 
+}
+
+section#img01{
+    background-image: url('imagens/background001.jpg') ;
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02{
+    background-size: cover;
+    background-image: url('imagens/background002.jpg')
+    
 }
 
 
