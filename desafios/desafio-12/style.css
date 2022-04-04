@@ -8,15 +8,32 @@
 } /*primeiro comando não funciona*/
 
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva,tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3:  'Sriracha', cursive;
+
+}
+
+
+
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
    
 }  /*Configurações Gerais*/
+
+
 
 html, body{
    background-color: darkgray;
    min-height: 100vh;
+   font-family: var(--fonte1);
 
 } /*Configurações comuns html e body*/
 
@@ -31,6 +48,8 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps ; /*primeiras letras maiúsculas maiores*/
+    font-family: var(--fonte2);
+    font-size: 10vw;
 }
 
 header > p{
@@ -54,6 +73,8 @@ section{
     padding-bottom: 10vh; /*espaço entre as estrofes, ganhando rolagem para o efeito paralax*/
     line-height: 2em; /*espaçamento dupla entre as letras*/
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
 }
 
 
@@ -69,11 +90,10 @@ section.imagem{
 
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.452);
-    width: 400px;
+    display: inline-block; /* Faz com que o conteúdo se adapte ao tamanho da tela*/
+    padding: 5px; /* Dá um espaço entre o conteúdo e a section, pra não ficar colado*/
+
 }
-
-
-
 
 
 
