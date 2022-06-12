@@ -13,6 +13,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption{
@@ -32,8 +33,18 @@
             color: white;
         }
 
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: grey ;
+        }
+
         td.num{
             text-align: right;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
         }
 
     
@@ -43,6 +54,25 @@
 <body>
    
     <h1>Uso de Tabelas Grandes</h1> 
+
+    <!--
+           Aanatomia para tabelas grandes:
+           Table
+                
+                Thead
+                     Tr- Td - Th
+              
+                Tbody
+                     Tr- Td - Th
+                
+                Tfoot
+                     Tr- Td - Th
+
+                Caption - Título da tabela: aqui não tem tr e nem td
+       
+
+
+    -->
 
 <table>
 
@@ -203,6 +233,8 @@
 </tfoot>
 
 </table>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?vvLorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?vvLorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?vvvvLorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?vLorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit labore incidunt a numquam repudiandae omnis enim doloribus repellendus quidem. Consectetur rerum ipsam praesentium voluptatem animi delectus at quam natus?</p>
 
 </body>
 </html>
